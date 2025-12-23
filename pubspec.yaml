@@ -1,0 +1,32 @@
+name: film_camera
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 우리가 추가한 패키지들
+  camera: ^0.10.5+9
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  google_fonts: ^6.1.0  # [추가] 폰트 패키지
+  gal: 2.2.0  # 화살표(^) 빼고 정확히 2.2.0으로 고정
+  shared_preferences: ^2.2.2
+
+  # 아이콘 (기본)
+  cupertino_icons: ^1.0.6
+  google_mobile_ads: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
